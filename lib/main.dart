@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 
                   ),
                 ),
-                Text('Dart\n\n\n\n',
+                Text('Dart\n\n\n',
                   style: TextStyle(
                   fontSize: 40,
                   fontWeight:FontWeight.w500,
