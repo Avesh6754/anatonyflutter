@@ -10,33 +10,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-     return MaterialApp(
+     return const MaterialApp(
       debugShowCheckedModeBanner: false,
         home :Scaffold(
     backgroundColor:Colors.black,
           body: Center(
-            child: Column(
-              children: [
-                Text('\n\nHello\n\n\n\n',
-                  style: TextStyle(
-                    fontSize: 40,
-                    fontWeight:FontWeight.w500,
-                    color: Colors.red,
-                    decoration: TextDecoration.underline,
-                    decorationColor: Colors.yellow,
-
-                  ),
-                ),
-                Text('Dart\n\n\n',
-                  style: TextStyle(
-                  fontSize: 40,
-                  fontWeight:FontWeight.w500,
-                  color: Colors.red,
-                  decoration: TextDecoration.underline,
-                  decorationColor: Colors.yellow,
-                ),
-                ),
-                Text('Flutter\n',
+              child:
+                Text('Hello\n\n\n\nDart\n\n\n\nFlutter',
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight:FontWeight.w500,
@@ -45,11 +25,8 @@ class MyApp extends StatelessWidget {
                     decorationColor: Colors.yellow,
                   ),
                 ),
-              ],
             ),
-
-            ),
-          ),
+        ),
      );
 
 
